@@ -15,6 +15,8 @@
 		18BECB7B16906DAE00E82829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECB7A16906DAE00E82829 /* AppDelegate.m */; };
 		18BECB7E16906DAE00E82829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECB7D16906DAE00E82829 /* ViewController.m */; };
 		18BECB8116906DAE00E82829 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BECB7F16906DAE00E82829 /* ViewController.xib */; };
+		18BECB8C1690748700E82829 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BECB8B1690748700E82829 /* AVFoundation.framework */; };
+		18BECB9016912F7400E82829 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BECB8F16912F7400E82829 /* WaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		18BECB7C16906DAE00E82829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18BECB7D16906DAE00E82829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18BECB8016906DAE00E82829 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18BECB8B1690748700E82829 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18BECB8E16912F7400E82829 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		18BECB8F16912F7400E82829 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BECB8C1690748700E82829 /* AVFoundation.framework in Frameworks */,
 				18BECB6B16906DAE00E82829 /* UIKit.framework in Frameworks */,
 				18BECB6D16906DAE00E82829 /* Foundation.framework in Frameworks */,
 				18BECB6F16906DAE00E82829 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +56,7 @@
 		18BECB5B16906DAE00E82829 = {
 			isa = PBXGroup;
 			children = (
+				18BECB8D16912F7400E82829 /* Class */,
 				18BECB7016906DAE00E82829 /* WaveViewDemo */,
 				18BECB6916906DAE00E82829 /* Frameworks */,
 				18BECB6716906DAE00E82829 /* Products */,
@@ -67,6 +74,7 @@
 		18BECB6916906DAE00E82829 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18BECB8B1690748700E82829 /* AVFoundation.framework */,
 				18BECB6A16906DAE00E82829 /* UIKit.framework */,
 				18BECB6C16906DAE00E82829 /* Foundation.framework */,
 				18BECB6E16906DAE00E82829 /* CoreGraphics.framework */,
@@ -96,6 +104,15 @@
 				18BECB7816906DAE00E82829 /* WaveViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BECB8D16912F7400E82829 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				18BECB8E16912F7400E82829 /* WaveView.h */,
+				18BECB8F16912F7400E82829 /* WaveView.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +181,7 @@
 				18BECB7716906DAE00E82829 /* main.m in Sources */,
 				18BECB7B16906DAE00E82829 /* AppDelegate.m in Sources */,
 				18BECB7E16906DAE00E82829 /* ViewController.m in Sources */,
+				18BECB9016912F7400E82829 /* WaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
