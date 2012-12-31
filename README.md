@@ -6,15 +6,17 @@ This app is for iOS, for drawing the wave shape
 
 ##Usage
 
-1) add a UIView in Xib, change the Class to Wave View, make connection to .h
+1) copy **WaveView.h** and **WaveView.m** to your project
+
+2）add a UIView in Xib, change the Class to Wave View, make connection to your viewController
 
     @property (weak, nonatomic) IBOutlet WaveView *waveViewDefault;
 
-2) init the WaveView
+3) init the WaveView
 
     [self.waveViewDefault setWaveType:kWaveTypeDefault MaxValue:0 MinValue:-160];
     
-3) start waving
+4) use this method where can get the changing value, to start waving
 
-    [self.waveViewDefault startWavingWithValue:volume];
+    [self.waveViewDefault startWavingWithValue:changingValue];
 
