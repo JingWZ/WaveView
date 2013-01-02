@@ -2,11 +2,11 @@
 
 This app is for iOS, for drawing the wave shape
 
-![image](http://img.u.115.com/thumb/0/0C/0C/00C0CBB9D910DD7FBFF15122312DEBD1FB22A811_800_800?s=C_zQknDCnmOXeUgM7Yg-dQ&t=1356940800&sync=1)
+![image](http://www.liuhedao.com/t/5/1357137142x-1376440253.png)
 
 ##Usage
 
-1) copy **WaveView.h** and **WaveView.m** to your project
+1）copy **WaveView.h** and **WaveView.m** to your project
 
 2）add a UIView in Xib, change the Class to Wave View, make connection to your viewController
 
