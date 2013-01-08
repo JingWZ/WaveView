@@ -18,6 +18,8 @@
     float val;
 }
 
+@property (strong, nonatomic) WaveView *waveViewsss;
+
 @property (weak, nonatomic) IBOutlet WaveView *waveViewMirror;
 @property (weak, nonatomic) IBOutlet WaveView *waveViewDefault;
 

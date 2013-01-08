@@ -90,8 +90,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        [self setContentMode:UIViewContentModeRedraw];
     }
     return self;
+}
+
+- (void)awakeFromNib{
+    [self setContentMode:UIViewContentModeRedraw];
 }
 
 
