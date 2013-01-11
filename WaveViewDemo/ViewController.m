@@ -59,6 +59,7 @@
     NSArray *directories=NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentPath=[directories objectAtIndex:0];
     NSString *recordPath=[documentPath stringByAppendingPathComponent:@"record.m4a"];
+    
     NSURL *recordURL=[NSURL fileURLWithPath:recordPath];
     
     NSDictionary *setting=[NSDictionary dictionaryWithObjectsAndKeys:
@@ -69,6 +70,7 @@
     mRecorder=[[AVAudioRecorder alloc] initWithURL:recordURL settings:setting error:nil];
     [mRecorder setMeteringEnabled:YES];
     [mRecorder prepareToRecord];
+     
 }
 
 - (void)viewDidAppear:(BOOL)animated{
