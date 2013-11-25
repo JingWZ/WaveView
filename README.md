@@ -2,7 +2,7 @@
 
 This app is for iOS, for drawing the wave shape
 
-![image](http://www.liuhedao.com/t/5/1357137142x-1376440253.png)
+![image](http://t1.qpic.cn/mblogpic/6bb55d6892d173ccd612/2000.jpg)
 
 ##Usage
 
