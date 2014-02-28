@@ -1,3 +1,5 @@
+this is out of date. 
+
 #Wave View
 
 This app is for iOS, for drawing the wave shape
